@@ -369,7 +369,7 @@ RectangleCutButton.Text = "Decorations Purged"
 RectangleCutButton.Active = false
 end)
 PlayButton.MouseButton1Click:Connect(function()
--- СЮДА ВСТАВЛЯТЬ ВАШ КАСТОМНЫЙ СКРИПТ ХОПА (Строка 278)
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-server-hop-script-130449"))()
 end)
 local function createToggle(name, initialValue, callback, layoutOrder)
 local Button = Instance.new("TextButton")
